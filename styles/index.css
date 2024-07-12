@@ -1,0 +1,22 @@
+:root{
+    --bg-color: #007bff;
+    --text-color: #343a40;
+    --shadow-color: rgba(0,0,0,0.2);
+}
+@font-face {
+    font-family: 'Monserat';
+    src: url('/assets/fonts/Montserrat.ttf') format('ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);   
+    font-family: 'Monserat', sans-serif;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
