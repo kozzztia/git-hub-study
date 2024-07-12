@@ -2,6 +2,9 @@
     --bg-color: #007bff;
     --text-color: #343a40;
     --shadow-color: rgba(0,0,0,0.2);
+    --image-size: 200px;
+    --max-width: 1200px;
+    --main-padding: 10px;
 }
 @font-face {
     font-family: 'Monserat';
@@ -21,5 +24,19 @@ body{
     overflow-x: hidden;
 }
 .container{
-    
+    max-width: var(--max-width);
+    margin : 0 auto;
+    padding: var(--main-padding);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    border: var(--shadow-color) 2px solid;
+    height: 100vh;
+    width: 100%;
+    }
+.container img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
