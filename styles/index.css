@@ -40,3 +40,12 @@ body{
     height: 200px;
     object-fit: cover;
 }
+.container h2{
+    text-transform: capitalize;
+}
+.container a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 1.3rem
+}
